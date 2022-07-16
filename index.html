@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header"> 
+                <div class="btn btn__catalog">Каталог</div> 
+                <div class="search">
+                    <form class="search__form" action="">
+                        <input class="search__input" type="text" name="" id="search" placeholder=" ">
+                        <label class="search__label" for="search" placeholder=" ">Я ищу...</label>
+                        <button class="search__button">
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.3819 16.9036L24.7693 26M19.3347 10.1673C19.3347 15.2303 15.2303 19.3347 10.1673 19.3347C5.10436 19.3347 1 15.2303 1 10.1673C1 5.10436 5.10436 1 10.1673 1C15.2303 1 19.3347 5.10436 19.3347 10.1673Z" stroke="#090808" stroke-width="2"/>
+                                
+                            </svg> 
+                        </button>
+                    </form>
+                </div>  
+                <div class="header-icons">
+                    <div class="item-header-icons item-header-icons_search">
+                        <svg class="item-header-icons__image item-header-icons__image_search" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.3819 16.9036L24.7693 26M19.3347 10.1673C19.3347 15.2303 15.2303 19.3347 10.1673 19.3347C5.10436 19.3347 1 15.2303 1 10.1673C1 5.10436 5.10436 1 10.1673 1C15.2303 1 19.3347 5.10436 19.3347 10.1673Z" stroke="#090808" stroke-width="2"/>
+                        </svg> 
+                    </div>
+                    <div class="item-header-icons">
+                        <svg class="item-header-icons__image item-header-icons__image_cart" width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 1H6.2386L9.94568 17.2308M9.94568 17.2308H26.2289L30 4.71872L7.01261 4.39282M9.94568 17.2308C9.94568 17.2308 8.01358 17.2308 8.01358 19.1048C8.00802 19.3569 8.05359 19.6077 8.14755 19.8418C8.24151 20.0759 8.3819 20.2885 8.56028 20.4669C8.73865 20.6453 8.9513 20.7857 9.1854 20.8796C9.4195 20.9736 9.67021 21.0191 9.92241 21.0136H27.4161M13.8855 25.2386C13.8855 26.3732 12.9658 27.2929 11.8312 27.2929C10.6967 27.2929 9.77691 26.3732 9.77691 25.2386C9.77691 24.104 10.6967 23.1843 11.8312 23.1843C12.9658 23.1843 13.8855 24.104 13.8855 25.2386ZM26.1591 25.2386C26.1591 26.3732 25.2393 27.2929 24.1048 27.2929C22.9702 27.2929 22.0504 26.3732 22.0504 25.2386C22.0504 24.104 22.9702 23.1843 24.1048 23.1843C25.2393 23.1843 26.1591 24.104 26.1591 25.2386Z" stroke="black" stroke-width="2"/>
+                        </svg>  
+                        <div class="item-header-icons__text">
+                            Корзина
+                        </div>
+                    </div>
+                    <div class="item-header-icons"> 
+                        <svg class="item-header-icons__image item-header-icons__image_user" width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="item-header-icons__image_user" d="M12.9495 12.1735C16.035 12.1735 18.5363 9.67224 18.5363 6.58676C18.5363 3.50128 16.035 1 12.9495 1C9.86405 1 7.36277 3.50128 7.36277 6.58676C7.36277 9.67224 9.86405 12.1735 12.9495 12.1735Z" stroke="black" stroke-width="2"/>
+                            <path d="M24.2585 26C24.2585 23.0007 23.067 20.1242 20.9462 18.0034C18.8253 15.8825 15.9489 14.6911 12.9496 14.6911C9.95024 14.6911 7.07377 15.8825 4.95293 18.0034C2.8321 20.1242 1.64063 23.0007 1.64062 26H24.2585Z" stroke="black" stroke-width="2"/>
+                        </svg>  
+                        <div class="item-header-icons__text">
+                            Профиль
+                        </div>
+                    </div>
+                    <div class="item-header-icons"> 
+                        <svg  class="item-header-icons__image item-header-icons__image_heart" width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.13589 8.90719C0.302444 4.85508 3.38258 1.345 8.18397 1.01347C12.4116 0.724031 14.5073 5.18662 14.9301 6.03914C14.9348 6.05344 14.9447 6.06601 14.9583 6.07497C14.9719 6.08392 14.9885 6.08876 15.0056 6.08876C15.0226 6.08876 15.0392 6.08392 15.0529 6.07497C15.0665 6.06601 15.0764 6.05344 15.0811 6.03914C17.0439 1.35027 20.6193 1.15029 21.8755 1.03978C25.2576 0.724031 29.7933 3.00269 28.8813 8.31253C27.5768 15.68 14.918 24 14.918 24C14.918 24 2.78467 16.8272 1.13589 8.90719Z" stroke="black" stroke-width="2"/>
+                        </svg>  
+                        <div class="item-header-icons__text">
+                            Нравится
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="lessons"> 
+            <div class="breadcrumbs"> 
+                <div class="item-breadcrumbs"> 
+                        <a class="item-breadcrumbs__text item-breadcrumbs__text_unactive" href="#">Главная</a>
+                        <img class="item-breadcrumbs__icon" src="./media/chevron-left.svg" alt="">
+                        <a class="item-breadcrumbs__text" href="#">Умная площадка</a> 
+                </div> 
+            </div>
+            <div class="lessons__title title">
+                УМНАЯ СПОРТИВНАЯ ПЛОЩАДКА по приказу №107 ОТ 23.03.2022
+            </div>
+            <div class="lessons__text text">
+                Уличная площадка с тренажерным комплексом из 21 тренажера. Для иллюстрации упражнений лучше конечно использовать анимацию, пусть и простую. Сможем ли мы получить исходники изображений в векторе (svg)? Нам так было бы удобнее делать анимацию. Размер изображений для разных упражнений должен быть одинаковый по размеру и пропорциям. Для каждого изображений одного упражнения - оборудование должно быть неподвижно и находиться в одном месте
+            </div>
+            <a href="#" class="lessons__btn btn btn__big btn__yellow">Оборудование в каталоге</a>
+            <div class="lessons__row">
+                <div class="lessons__col">
+                    <div class="card-lesson">
+                        <div class="card-lesson__back">
+                            <a class="card-lesson__link" href="#"> <img src="./media/image 170.png" alt=""></a>
+                        </div>
+                        <a href="#" class="card-lesson__description">
+                            <span class="card-lesson__icon"><img src="./media/Group 1618.svg" alt=""></span>
+                            <span class="card-lesson__text">
+                                <span class="card-lesson__header">
+                                    Разминка
+                                </span>
+                                <span class="card-lesson__subheader">
+                                    10-15 мин. | 8 упражнений
+                                </span>
+                            </span>
+                        </a>
+                    </div> 
+                </div>
+                <div class="lessons__col">
+                    <div class="card-lesson">
+                        <div class="card-lesson__back">
+                            <a class="card-lesson__link" href="#"> <img src="./media/image 170-1.png" alt=""></a>
+                        </div>
+                        <a href="#" class="card-lesson__description">
+                            <span class="card-lesson__icon"><img src="./media/Group 1618.svg" alt=""></span>
+                            <span class="card-lesson__text">
+                                <span class="card-lesson__header">
+                                    Программа 1
+                                </span>
+                                <span class="card-lesson__subheader">
+                                    3 недели | 6 упражнений
+                                </span>
+                            </span>
+                        </a>
+                    </div> 
+                </div>
+                <div class="lessons__col">
+                    <div class="card-lesson">
+                        <div class="card-lesson__back">
+                            <a class="card-lesson__link" href="#"> <img src="./media/image 170-2.png" alt=""></a>
+                        </div>
+                        <a href="#" class="card-lesson__description">
+                            <span class="card-lesson__icon"><img src="./media/Group 1618.svg" alt=""></span>
+                            <span class="card-lesson__text">
+                                <span class="card-lesson__header">
+                                    Программа 2
+                                </span>
+                                <span class="card-lesson__subheader">
+                                    6 недель | 10 упражнений
+                                </span>
+                            </span>
+                        </a>
+                    </div> 
+                </div> 
+            </div>
+        </div> 
+    </main> 
+</body>
+</html>
